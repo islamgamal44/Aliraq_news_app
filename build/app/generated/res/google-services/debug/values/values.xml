@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">556384781491-hol6mhi7k8jfo3a481io1iupjirhdv0p.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">556384781491</string>
+    <string name="google_api_key" translatable="false">AIzaSyAtAVMEqn5XuTsXgxidjpAnd51WCeoNMsU</string>
+    <string name="google_app_id" translatable="false">1:556384781491:android:26b4609c53f8ed07329cc6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAtAVMEqn5XuTsXgxidjpAnd51WCeoNMsU</string>
+    <string name="google_storage_bucket" translatable="false">appaliraqia.appspot.com</string>
+    <string name="project_id" translatable="false">appaliraqia</string>
+</resources>

@@ -1,0 +1,1197 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="aliraqia.edu.iq"
+4    android:versionCode="9"
+5    android:versionName="3.0.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:5:5-67
+14-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:6:5-79
+15-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:6:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:7:5-76
+16-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:7:22-73
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:8:5-79
+17-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:8:22-76
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:9:5-75
+18-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:9:22-72
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:10:5-81
+19-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:10:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:11:5-80
+20-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:11:22-77
+21    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+21-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+21-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+22    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+22-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+22-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+23-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+24-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+25    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+25-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+25-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+26    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+26-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+26-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+27
+28    <queries>
+28-->[:file_picker] C:\Users\eslam\StudioProjects\Aliraq\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:15
+29        <intent>
+29-->[:file_picker] C:\Users\eslam\StudioProjects\Aliraq\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+30            <action android:name="android.intent.action.GET_CONTENT" />
+30-->[:file_picker] C:\Users\eslam\StudioProjects\Aliraq\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+30-->[:file_picker] C:\Users\eslam\StudioProjects\Aliraq\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+31
+32            <data android:mimeType="*/*" />
+32-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:52:17-54:46
+33        </intent>
+34        <intent>
+34-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+35            <action android:name="android.support.customtabs.action.CustomTabsService" />
+35-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+35-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+36        </intent>
+37
+38        <package android:name="com.facebook.katana" /> <!-- For browser content -->
+38-->[com.facebook.android:facebook-common:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\d88da44d24d675c616217332dd2fdff9\transformed\jetified-facebook-common-15.1.0\AndroidManifest.xml:18:9-55
+38-->[com.facebook.android:facebook-common:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\d88da44d24d675c616217332dd2fdff9\transformed\jetified-facebook-common-15.1.0\AndroidManifest.xml:18:18-52
+39        <intent>
+39-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:31:9-37:18
+40            <action android:name="android.intent.action.VIEW" />
+40-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:17-69
+40-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:25-66
+41
+42            <category android:name="android.intent.category.BROWSABLE" />
+42-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:17-78
+42-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:27-75
+43
+44            <data android:scheme="https" />
+44-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:52:17-54:46
+44-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:54:21-43
+45        </intent>
+46        <intent>
+46-->[androidx.media2:media2-session:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\94f185cb597d07de39c0dba81f9c5471\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:25:9-27:18
+47            <action android:name="android.media.browse.MediaBrowserService" />
+47-->[androidx.media2:media2-session:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\94f185cb597d07de39c0dba81f9c5471\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:13-79
+47-->[androidx.media2:media2-session:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\94f185cb597d07de39c0dba81f9c5471\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:21-76
+48        </intent>
+49        <intent>
+49-->[androidx.media2:media2-session:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\94f185cb597d07de39c0dba81f9c5471\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:28:9-30:18
+50            <action android:name="androidx.media2.session.MediaSessionService" />
+50-->[androidx.media2:media2-session:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\94f185cb597d07de39c0dba81f9c5471\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:13-82
+50-->[androidx.media2:media2-session:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\94f185cb597d07de39c0dba81f9c5471\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:21-79
+51        </intent>
+52        <intent>
+52-->[androidx.media2:media2-session:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\94f185cb597d07de39c0dba81f9c5471\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:31:9-33:18
+53            <action android:name="androidx.media2.session.MediaLibraryService" />
+53-->[androidx.media2:media2-session:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\94f185cb597d07de39c0dba81f9c5471\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:13-82
+53-->[androidx.media2:media2-session:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\94f185cb597d07de39c0dba81f9c5471\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:21-79
+54        </intent>
+55    </queries>
+56
+57    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+57-->[:location] C:\Users\eslam\StudioProjects\Aliraq\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+57-->[:location] C:\Users\eslam\StudioProjects\Aliraq\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+58    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+58-->[:location] C:\Users\eslam\StudioProjects\Aliraq\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+58-->[:location] C:\Users\eslam\StudioProjects\Aliraq\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+59    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+59-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:28:5-82
+59-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:28:22-79
+60    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+60-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+60-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+61    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+61-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+61-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
+62
+63    <application
+63-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:13:5-96:19
+64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+64-->[androidx.core:core:1.8.0] C:\Users\eslam\.gradle\caches\transforms-3\f3e12bcae432f3f101aa96da30a6712c\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+65        android:debuggable="true"
+66        android:hardwareAccelerated="true"
+66-->[:facebook_audience_network] C:\Users\eslam\StudioProjects\Aliraq\build\facebook_audience_network\intermediates\merged_manifest\debug\AndroidManifest.xml:9:18-52
+67        android:icon="@mipmap/ic_launcher"
+67-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:14:9-43
+68        android:label="@string/app_name"
+68-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:15:9-41
+69        android:supportsRtl="true"
+69-->[com.facebook.android:facebook-login:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\cf5899ef27bc5cb74f3d2250bfdab1d4\transformed\jetified-facebook-login-15.1.0\AndroidManifest.xml:16:18-44
+70        android:usesCleartextTraffic="true" >
+70-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:16:9-44
+71        <activity
+71-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:17:9-60:20
+72            android:name="aliraqia.edu.iq.MainActivity"
+72-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:18:13-41
+73            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+73-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:19:13-163
+74            android:exported="true"
+74-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:20:13-36
+75            android:hardwareAccelerated="true"
+75-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:21:13-47
+76            android:launchMode="singleTop"
+76-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:22:13-43
+77            android:theme="@style/LaunchTheme"
+77-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:23:13-47
+78            android:windowSoftInputMode="adjustResize" >
+78-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:24:13-55
+79
+80            <!--
+81                 Specifies an Android theme to apply to this Activity as soon as
+82                 the Android process has started. This theme is visible to the user
+83                 while the Flutter UI initializes. After that, this theme continues
+84                 to determine the Window background behind the Flutter UI.
+85            -->
+86            <meta-data
+86-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:30:13-32:57
+87                android:name="io.flutter.embedding.android.NormalTheme"
+87-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:31:17-72
+88                android:resource="@style/NormalTheme" />
+88-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:32:17-54
+89            <!--
+90                 Displays an Android View that continues showing the launch screen
+91                 Drawable until Flutter paints its first frame, then this splash
+92                 screen fades out. A splash screen is useful to avoid any visual
+93                 gap between the end of Android's launch screen and the painting of
+94                 Flutter's first frame.
+95            -->
+96            <!--
+97                <meta-data
+98                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+99                android:resource="@drawable/launch_background" />
+100            -->
+101            <intent-filter>
+101-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:41:13-44:29
+102                <action android:name="android.intent.action.MAIN" />
+102-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:42:17-69
+102-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:42:25-66
+103
+104                <category android:name="android.intent.category.LAUNCHER" />
+104-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:43:17-77
+104-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:43:27-74
+105            </intent-filter>
+106            <intent-filter>
+106-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:46:13-55:29
+107                <action android:name="android.intent.action.VIEW" />
+107-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:17-69
+107-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:25-66
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:17-76
+109-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:27-73
+110                <category android:name="android.intent.category.BROWSABLE" />
+110-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:17-78
+110-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:27-75
+111
+112                <data
+112-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:52:17-54:46
+113                    android:host="example.com"
+113-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:53:21-47
+114                    android:scheme="https" />
+114-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:54:21-43
+115            </intent-filter>
+116            <intent-filter>
+116-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:56:13-59:29
+117                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+117-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:57:17-69
+117-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:57:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:17-76
+119-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:27-73
+120            </intent-filter>
+121        </activity>
+122        <!--
+123             Don't delete the meta-data below.
+124             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+125        -->
+126        <meta-data
+126-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:63:9-65:33
+127            android:name="flutterEmbedding"
+127-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:64:13-44
+128            android:value="2" />
+128-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:65:13-30
+129        <!-- facebook login requirement -->
+130        <meta-data
+130-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:67:9-69:55
+131            android:name="com.facebook.sdk.ApplicationId"
+131-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:68:13-58
+132            android:value="@string/facebook_app_id" />
+132-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:69:13-52
+133        <meta-data
+133-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:70:9-72:61
+134            android:name="com.facebook.sdk.ClientToken"
+134-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:71:13-56
+135            android:value="@string/facebook_client_token" />
+135-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:72:13-58
+136
+137        <activity
+137-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:74:9-77:48
+138            android:name="com.facebook.FacebookActivity"
+138-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:75:13-57
+139            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+139-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:76:13-96
+140            android:label="@string/app_name"
+140-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:77:13-45
+141            android:theme="@style/com_facebook_activity_theme" />
+141-->[com.facebook.android:facebook-common:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\d88da44d24d675c616217332dd2fdff9\transformed\jetified-facebook-common-15.1.0\AndroidManifest.xml:25:13-63
+142        <activity
+142-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:78:9-90:20
+143            android:name="com.facebook.CustomTabActivity"
+143-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:79:13-58
+144            android:exported="true" >
+144-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:80:13-36
+145            <intent-filter>
+145-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:81:13-89:29
+146                <action android:name="android.intent.action.VIEW" />
+146-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:17-69
+146-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:25-66
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:17-76
+148-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:27-73
+149                <category android:name="android.intent.category.BROWSABLE" />
+149-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:17-78
+149-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:27-75
+150
+151                <data android:scheme="@string/fb_login_protocol_scheme" />
+151-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:52:17-54:46
+151-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:54:21-43
+152                <data
+152-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:52:17-54:46
+153                    android:host="appaliraq.page.link"
+153-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:53:21-47
+154                    android:scheme="https" />
+154-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:54:21-43
+155            </intent-filter>
+156            <intent-filter>
+156-->[com.facebook.android:facebook-common:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\d88da44d24d675c616217332dd2fdff9\transformed\jetified-facebook-common-15.1.0\AndroidManifest.xml:31:13-40:29
+157                <action android:name="android.intent.action.VIEW" />
+157-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:17-69
+157-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:25-66
+158
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:17-76
+159-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:27-73
+160                <category android:name="android.intent.category.BROWSABLE" />
+160-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:17-78
+160-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:27-75
+161
+162                <data
+162-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:52:17-54:46
+163                    android:host="cct.aliraqia.edu.iq"
+163-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:53:21-47
+164                    android:scheme="fbconnect" />
+164-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:54:21-43
+165            </intent-filter>
+166        </activity>
+167
+168        <meta-data
+168-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:92:9-94:70
+169            android:name="com.google.android.gms.ads.APPLICATION_ID"
+169-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:93:13-69
+170            android:value="ca-app-pub-3940256099942544~3347511713" />
+170-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:94:13-67
+171
+172        <service
+172-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
+173            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+173-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
+174            android:exported="false"
+174-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+175            android:permission="android.permission.BIND_JOB_SERVICE" />
+175-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
+176        <service
+176-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
+177            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+177-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
+178            android:exported="false" >
+178-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+179            <intent-filter>
+179-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+180                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+180-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+180-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+181            </intent-filter>
+182        </service>
+183
+184        <receiver
+184-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
+185            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+185-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
+186            android:exported="true"
+186-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+187            android:permission="com.google.android.c2dm.permission.SEND" >
+187-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
+188            <intent-filter>
+188-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+189                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+189-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+189-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+190            </intent-filter>
+191        </receiver>
+192
+193        <service
+193-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-41:19
+194            android:name="com.google.firebase.components.ComponentDiscoveryService"
+194-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:18-89
+195            android:directBootAware="true"
+195-->[com.google.firebase:firebase-common:20.2.0] C:\Users\eslam\.gradle\caches\transforms-3\509f2251c1d7178ff37783b5bea7482e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+196            android:exported="false" >
+196-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:54:13-37
+197            <meta-data
+197-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
+198                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+198-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
+200            <meta-data
+200-->[:firebase_dynamic_links] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:85
+201                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
+201-->[:firebase_dynamic_links] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-131
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[:firebase_dynamic_links] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-82
+203            <meta-data
+203-->[:firebase_auth] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+204                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+204-->[:firebase_auth] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+205                android:value="com.google.firebase.components.ComponentRegistrar" />
+205-->[:firebase_auth] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+206            <meta-data
+206-->[:firebase_core] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+207                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+207-->[:firebase_core] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+208                android:value="com.google.firebase.components.ComponentRegistrar" />
+208-->[:firebase_core] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+209            <meta-data
+209-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:55:13-57:85
+210                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+210-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:56:17-119
+211                android:value="com.google.firebase.components.ComponentRegistrar" />
+211-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:57:17-82
+212            <meta-data
+212-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+213                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+213-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+214                android:value="com.google.firebase.components.ComponentRegistrar" />
+214-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+215            <meta-data
+215-->[com.google.firebase:firebase-appcheck-playintegrity:16.1.0] C:\Users\eslam\.gradle\caches\transforms-3\a988c1e6c053c0a9c9f26e950d0e4e94\transformed\jetified-firebase-appcheck-playintegrity-16.1.0\AndroidManifest.xml:27:13-29:85
+216                android:name="com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar"
+216-->[com.google.firebase:firebase-appcheck-playintegrity:16.1.0] C:\Users\eslam\.gradle\caches\transforms-3\a988c1e6c053c0a9c9f26e950d0e4e94\transformed\jetified-firebase-appcheck-playintegrity-16.1.0\AndroidManifest.xml:28:17-144
+217                android:value="com.google.firebase.components.ComponentRegistrar" />
+217-->[com.google.firebase:firebase-appcheck-playintegrity:16.1.0] C:\Users\eslam\.gradle\caches\transforms-3\a988c1e6c053c0a9c9f26e950d0e4e94\transformed\jetified-firebase-appcheck-playintegrity-16.1.0\AndroidManifest.xml:29:17-82
+218            <meta-data
+218-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\782c2d1ff60f28deff2c063d9838286b\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:26:13-28:85
+219                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+219-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\782c2d1ff60f28deff2c063d9838286b\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:27:17-133
+220                android:value="com.google.firebase.components.ComponentRegistrar" />
+220-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\782c2d1ff60f28deff2c063d9838286b\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:28:17-82
+221            <meta-data
+221-->[com.google.firebase:firebase-appcheck:16.1.0] C:\Users\eslam\.gradle\caches\transforms-3\0ca5dcecf880608ec55debaee85b4413\transformed\jetified-firebase-appcheck-16.1.0\AndroidManifest.xml:27:13-29:85
+222                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+222-->[com.google.firebase:firebase-appcheck:16.1.0] C:\Users\eslam\.gradle\caches\transforms-3\0ca5dcecf880608ec55debaee85b4413\transformed\jetified-firebase-appcheck-16.1.0\AndroidManifest.xml:28:17-117
+223                android:value="com.google.firebase.components.ComponentRegistrar" />
+223-->[com.google.firebase:firebase-appcheck:16.1.0] C:\Users\eslam\.gradle\caches\transforms-3\0ca5dcecf880608ec55debaee85b4413\transformed\jetified-firebase-appcheck-16.1.0\AndroidManifest.xml:29:17-82
+224            <meta-data
+224-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\a42a510ec9c5e3f1da7125dd040d5ae4\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+225                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+225-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\a42a510ec9c5e3f1da7125dd040d5ae4\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\a42a510ec9c5e3f1da7125dd040d5ae4\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\eslam\.gradle\caches\transforms-3\17d22fe025ab50a98f9d320475ac68f8\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+228                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+228-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\eslam\.gradle\caches\transforms-3\17d22fe025ab50a98f9d320475ac68f8\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\eslam\.gradle\caches\transforms-3\17d22fe025ab50a98f9d320475ac68f8\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+230            <meta-data
+230-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\0e7d36c6fb05e95145b2c906491ced95\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+231                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+231-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\0e7d36c6fb05e95145b2c906491ced95\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\0e7d36c6fb05e95145b2c906491ced95\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\eslam\.gradle\caches\transforms-3\7cff8f1fdcdad9702be900b3fdc72147\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+234                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+234-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\eslam\.gradle\caches\transforms-3\7cff8f1fdcdad9702be900b3fdc72147\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\eslam\.gradle\caches\transforms-3\7cff8f1fdcdad9702be900b3fdc72147\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+236        </service>
+237
+238        <provider
+238-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
+239            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+239-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
+240            android:authorities="aliraqia.edu.iq.flutterfirebasemessaginginitprovider"
+240-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
+241            android:exported="false"
+241-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+242            android:initOrder="99" />
+242-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
+243
+244        <receiver
+244-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+245            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+245-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+246            android:exported="false" />
+246-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+247        <receiver
+247-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+248            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+248-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+249            android:exported="false" />
+249-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+250        <receiver
+250-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+251            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+251-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+252            android:exported="false" >
+252-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+253            <intent-filter>
+253-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+254                <action android:name="android.intent.action.BOOT_COMPLETED" />
+254-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+254-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+255                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+255-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+255-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+256                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+256-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+256-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+257                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+257-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+257-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+258            </intent-filter>
+259        </receiver>
+260
+261        <activity
+261-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+262            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+262-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+263            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+263-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+264            android:exported="false"
+264-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+265            android:theme="@style/AppTheme" />
+265-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+266        <activity
+266-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+267            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+267-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+268            android:exported="false"
+268-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+269            android:theme="@style/ThemeTransparent" />
+269-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+270        <activity
+270-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+271            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+271-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+272            android:exported="false"
+272-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+273            android:theme="@style/ThemeTransparent" />
+273-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+274        <activity
+274-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+275            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+275-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+276            android:exported="false"
+276-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+277            android:launchMode="singleInstance"
+277-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+278            android:theme="@style/ThemeTransparent" />
+278-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+279        <activity
+279-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+280            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+280-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+281            android:exported="false"
+281-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+282            android:launchMode="singleInstance"
+282-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+283            android:theme="@style/ThemeTransparent" />
+283-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+284
+285        <receiver
+285-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+286            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+286-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+287            android:enabled="true"
+287-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+288            android:exported="false" />
+288-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+289
+290        <meta-data
+290-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+291            android:name="io.flutter.embedded_views_preview"
+291-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+292            android:value="true" />
+292-->[:flutter_inappwebview] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+293
+294        <provider
+294-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+295            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+295-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+296            android:authorities="aliraqia.edu.iq.flutter.share_provider"
+296-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+297            android:exported="false"
+297-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+298            android:grantUriPermissions="true" >
+298-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+299            <meta-data
+299-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:68
+300                android:name="android.support.FILE_PROVIDER_PATHS"
+300-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+301                android:resource="@xml/flutter_share_file_paths" />
+301-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-65
+302        </provider>
+303        <provider
+303-->[:image_picker_android] C:\Users\eslam\StudioProjects\Aliraq\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+304            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+304-->[:image_picker_android] C:\Users\eslam\StudioProjects\Aliraq\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+305            android:authorities="aliraqia.edu.iq.flutter.image_provider"
+305-->[:image_picker_android] C:\Users\eslam\StudioProjects\Aliraq\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+306            android:exported="false"
+306-->[:image_picker_android] C:\Users\eslam\StudioProjects\Aliraq\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+307            android:grantUriPermissions="true" >
+307-->[:image_picker_android] C:\Users\eslam\StudioProjects\Aliraq\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+308            <meta-data
+308-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:68
+309                android:name="android.support.FILE_PROVIDER_PATHS"
+309-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+310                android:resource="@xml/flutter_image_picker_file_paths" />
+310-->[:share_plus] C:\Users\eslam\StudioProjects\Aliraq\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-65
+311        </provider>
+312
+313        <activity
+313-->[:url_launcher_android] C:\Users\eslam\StudioProjects\Aliraq\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+314            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+314-->[:url_launcher_android] C:\Users\eslam\StudioProjects\Aliraq\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+315            android:exported="false"
+315-->[:url_launcher_android] C:\Users\eslam\StudioProjects\Aliraq\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+316            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+316-->[:url_launcher_android] C:\Users\eslam\StudioProjects\Aliraq\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+317
+318        <service
+318-->[:location] C:\Users\eslam\StudioProjects\Aliraq\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+319            android:name="com.lyokone.location.FlutterLocationService"
+319-->[:location] C:\Users\eslam\StudioProjects\Aliraq\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+320            android:enabled="true"
+320-->[:location] C:\Users\eslam\StudioProjects\Aliraq\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+321            android:exported="false"
+321-->[:location] C:\Users\eslam\StudioProjects\Aliraq\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+322            android:foregroundServiceType="location" />
+322-->[:location] C:\Users\eslam\StudioProjects\Aliraq\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+323
+324        <uses-library
+324-->[androidx.window:window:1.0.0-beta04] C:\Users\eslam\.gradle\caches\transforms-3\267c5e3770ac15a5817ad43d9113b8c5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+325            android:name="androidx.window.extensions"
+325-->[androidx.window:window:1.0.0-beta04] C:\Users\eslam\.gradle\caches\transforms-3\267c5e3770ac15a5817ad43d9113b8c5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+326            android:required="false" />
+326-->[androidx.window:window:1.0.0-beta04] C:\Users\eslam\.gradle\caches\transforms-3\267c5e3770ac15a5817ad43d9113b8c5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+327        <uses-library
+327-->[androidx.window:window:1.0.0-beta04] C:\Users\eslam\.gradle\caches\transforms-3\267c5e3770ac15a5817ad43d9113b8c5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+328            android:name="androidx.window.sidecar"
+328-->[androidx.window:window:1.0.0-beta04] C:\Users\eslam\.gradle\caches\transforms-3\267c5e3770ac15a5817ad43d9113b8c5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+329            android:required="false" />
+329-->[androidx.window:window:1.0.0-beta04] C:\Users\eslam\.gradle\caches\transforms-3\267c5e3770ac15a5817ad43d9113b8c5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+330
+331        <activity android:name="com.facebook.CustomTabMainActivity" />
+331-->[com.facebook.android:facebook-common:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\d88da44d24d675c616217332dd2fdff9\transformed\jetified-facebook-common-15.1.0\AndroidManifest.xml:26:9-71
+331-->[com.facebook.android:facebook-common:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\d88da44d24d675c616217332dd2fdff9\transformed\jetified-facebook-common-15.1.0\AndroidManifest.xml:26:19-68
+332        <activity
+332-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
+333            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+333-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
+334            android:excludeFromRecents="true"
+334-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
+335            android:exported="false"
+335-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
+336            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+336-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
+337        <!--
+338            Service handling Google Sign-In user revocation. For apps that do not integrate with
+339            Google Sign-In, this service will never be started.
+340        -->
+341        <service
+341-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
+342            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+342-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
+343            android:exported="true"
+343-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
+344            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+344-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
+345            android:visibleToInstantApps="true" />
+345-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\eslam\.gradle\caches\transforms-3\5aab4b13be8414dd03604c9f70df5103\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+346
+347        <receiver
+347-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:31:9-38:20
+348            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+348-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:32:13-78
+349            android:exported="true"
+349-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:33:13-36
+350            android:permission="com.google.android.c2dm.permission.SEND" >
+350-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:34:13-73
+351            <intent-filter>
+351-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+352                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+352-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+352-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+353            </intent-filter>
+354        </receiver>
+355        <!--
+356             FirebaseMessagingService performs security checks at runtime,
+357             but set to not exported to explicitly avoid allowing another app to call it.
+358        -->
+359        <service
+359-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:44:9-51:19
+360            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+360-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:45:13-82
+361            android:directBootAware="true"
+361-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:46:13-43
+362            android:exported="false" >
+362-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\eslam\.gradle\caches\transforms-3\65021a406f2e19134ed34c6b766e16e2\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:47:13-37
+363            <intent-filter android:priority="-500" >
+363-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+364                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+364-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+364-->[:firebase_messaging] C:\Users\eslam\StudioProjects\Aliraq\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+365            </intent-filter>
+366        </service>
+367
+368        <activity
+368-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+369            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+369-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+370            android:excludeFromRecents="true"
+370-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+371            android:exported="true"
+371-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+372            android:launchMode="singleTask"
+372-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+373            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+373-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+374            <intent-filter>
+374-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+375                <action android:name="android.intent.action.VIEW" />
+375-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:17-69
+375-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:25-66
+376
+377                <category android:name="android.intent.category.DEFAULT" />
+377-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:17-76
+377-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:27-73
+378                <category android:name="android.intent.category.BROWSABLE" />
+378-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:17-78
+378-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:27-75
+379
+380                <data
+380-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:52:17-54:46
+381                    android:host="firebase.auth"
+381-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:53:21-47
+382                    android:path="/"
+383                    android:scheme="genericidp" />
+383-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:54:21-43
+384            </intent-filter>
+385        </activity>
+386        <activity
+386-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+387            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+387-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+388            android:excludeFromRecents="true"
+388-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+389            android:exported="true"
+389-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+390            android:launchMode="singleTask"
+390-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+391            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+391-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+392            <intent-filter>
+392-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\eslam\.gradle\caches\transforms-3\687ec5fe7a8ae5fd0922df862dedb8a3\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+393                <action android:name="android.intent.action.VIEW" />
+393-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:17-69
+393-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:47:25-66
+394
+395                <category android:name="android.intent.category.DEFAULT" />
+395-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:17-76
+395-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:49:27-73
+396                <category android:name="android.intent.category.BROWSABLE" />
+396-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:17-78
+396-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:50:27-75
+397
+398                <data
+398-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:52:17-54:46
+399                    android:host="firebase.auth"
+399-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:53:21-47
+400                    android:path="/"
+401                    android:scheme="recaptcha" />
+401-->C:\Users\eslam\StudioProjects\Aliraq\android\app\src\main\AndroidManifest.xml:54:21-43
+402            </intent-filter>
+403        </activity>
+404        <activity
+404-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\eslam\.gradle\caches\transforms-3\f9d86976b9f8547b75c35d9864ca964f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+405            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+405-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\eslam\.gradle\caches\transforms-3\f9d86976b9f8547b75c35d9864ca964f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+406            android:exported="false"
+406-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\eslam\.gradle\caches\transforms-3\f9d86976b9f8547b75c35d9864ca964f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+407            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+407-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\eslam\.gradle\caches\transforms-3\f9d86976b9f8547b75c35d9864ca964f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+408        <activity
+408-->[com.facebook.android:audience-network-sdk:6.12.0] C:\Users\eslam\.gradle\caches\transforms-3\56bde3e98f7a777f656c398392cfd8e7\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:20:9-24:75
+409            android:name="com.facebook.ads.AudienceNetworkActivity"
+409-->[com.facebook.android:audience-network-sdk:6.12.0] C:\Users\eslam\.gradle\caches\transforms-3\56bde3e98f7a777f656c398392cfd8e7\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:21:13-68
+410            android:configChanges="keyboardHidden|orientation|screenSize"
+410-->[com.facebook.android:audience-network-sdk:6.12.0] C:\Users\eslam\.gradle\caches\transforms-3\56bde3e98f7a777f656c398392cfd8e7\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:22:13-74
+411            android:exported="false"
+411-->[com.facebook.android:audience-network-sdk:6.12.0] C:\Users\eslam\.gradle\caches\transforms-3\56bde3e98f7a777f656c398392cfd8e7\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:23:13-37
+412            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+412-->[com.facebook.android:audience-network-sdk:6.12.0] C:\Users\eslam\.gradle\caches\transforms-3\56bde3e98f7a777f656c398392cfd8e7\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:24:13-72
+413
+414        <provider
+414-->[com.facebook.android:audience-network-sdk:6.12.0] C:\Users\eslam\.gradle\caches\transforms-3\56bde3e98f7a777f656c398392cfd8e7\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:26:9-29:40
+415            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+415-->[com.facebook.android:audience-network-sdk:6.12.0] C:\Users\eslam\.gradle\caches\transforms-3\56bde3e98f7a777f656c398392cfd8e7\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:27:13-75
+416            android:authorities="aliraqia.edu.iq.AudienceNetworkContentProvider"
+416-->[com.facebook.android:audience-network-sdk:6.12.0] C:\Users\eslam\.gradle\caches\transforms-3\56bde3e98f7a777f656c398392cfd8e7\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:28:13-82
+417            android:exported="false" />
+417-->[com.facebook.android:audience-network-sdk:6.12.0] C:\Users\eslam\.gradle\caches\transforms-3\56bde3e98f7a777f656c398392cfd8e7\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:29:13-37
+418        <provider
+418-->[com.google.firebase:firebase-common:20.2.0] C:\Users\eslam\.gradle\caches\transforms-3\509f2251c1d7178ff37783b5bea7482e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+419            android:name="com.google.firebase.provider.FirebaseInitProvider"
+419-->[com.google.firebase:firebase-common:20.2.0] C:\Users\eslam\.gradle\caches\transforms-3\509f2251c1d7178ff37783b5bea7482e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+420            android:authorities="aliraqia.edu.iq.firebaseinitprovider"
+420-->[com.google.firebase:firebase-common:20.2.0] C:\Users\eslam\.gradle\caches\transforms-3\509f2251c1d7178ff37783b5bea7482e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+421            android:directBootAware="true"
+421-->[com.google.firebase:firebase-common:20.2.0] C:\Users\eslam\.gradle\caches\transforms-3\509f2251c1d7178ff37783b5bea7482e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+422            android:exported="false"
+422-->[com.google.firebase:firebase-common:20.2.0] C:\Users\eslam\.gradle\caches\transforms-3\509f2251c1d7178ff37783b5bea7482e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+423            android:initOrder="100" />
+423-->[com.google.firebase:firebase-common:20.2.0] C:\Users\eslam\.gradle\caches\transforms-3\509f2251c1d7178ff37783b5bea7482e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+424
+425        <receiver
+425-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+426            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+426-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+427            android:enabled="true"
+427-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+428            android:exported="false" >
+428-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+429        </receiver>
+430
+431        <service
+431-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+432            android:name="com.google.android.gms.measurement.AppMeasurementService"
+432-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+433            android:enabled="true"
+433-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+434            android:exported="false" />
+434-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+435        <service
+435-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+436            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+436-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+437            android:enabled="true"
+437-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+438            android:exported="false"
+438-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+439            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+439-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\eslam\.gradle\caches\transforms-3\8879950127b4b3e771c5365beca50c67\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+440        <activity
+440-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:49:9-53:64
+441            android:name="com.google.android.gms.ads.AdActivity"
+441-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:50:13-65
+442            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+442-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:51:13-122
+443            android:exported="false"
+443-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:52:13-37
+444            android:theme="@android:style/Theme.Translucent" />
+444-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:53:13-61
+445
+446        <provider
+446-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:55:9-59:39
+447            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+447-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:56:13-76
+448            android:authorities="aliraqia.edu.iq.mobileadsinitprovider"
+448-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:57:13-73
+449            android:exported="false"
+449-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:58:13-37
+450            android:initOrder="100" />
+450-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:59:13-36
+451
+452        <service
+452-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:61:9-64:40
+453            android:name="com.google.android.gms.ads.AdService"
+453-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:62:13-64
+454            android:enabled="true"
+454-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:63:13-35
+455            android:exported="false" />
+455-->[com.google.android.gms:play-services-ads-lite:21.3.0] C:\Users\eslam\.gradle\caches\transforms-3\fc33e7f9724a55def84c773385361c5e\transformed\jetified-play-services-ads-lite-21.3.0\AndroidManifest.xml:64:13-37
+456
+457        <meta-data
+457-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\eslam\.gradle\caches\transforms-3\35c087f486e4ff79e78581770bc3c6c6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+458            android:name="com.google.android.gms.version"
+458-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\eslam\.gradle\caches\transforms-3\35c087f486e4ff79e78581770bc3c6c6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+459            android:value="@integer/google_play_services_version" />
+459-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\eslam\.gradle\caches\transforms-3\35c087f486e4ff79e78581770bc3c6c6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+460        <!--
+461         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+462         with the application context. This config is merged in with the host app's manifest,
+463         but there can only be one provider with the same authority activated at any given
+464         point; so if the end user has two or more different apps that use Facebook SDK, only the
+465         first one will be able to use the provider. To work around this problem, we use the
+466         following placeholder in the authority to identify each host application as if it was
+467         a completely different provider.
+468        -->
+469        <provider
+469-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:29:9-32:40
+470            android:name="com.facebook.internal.FacebookInitProvider"
+470-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:30:13-70
+471            android:authorities="aliraqia.edu.iq.FacebookInitProvider"
+471-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:31:13-72
+472            android:exported="false" />
+472-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:32:13-37
+473
+474        <receiver
+474-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:34:9-40:20
+475            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+475-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:35:13-86
+476            android:exported="false" >
+476-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:36:13-37
+477            <intent-filter>
+477-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:37:13-39:29
+478                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+478-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:38:17-95
+478-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:38:25-92
+479            </intent-filter>
+480        </receiver>
+481        <receiver
+481-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:41:9-47:20
+482            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+482-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:42:13-118
+483            android:exported="false" >
+483-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:43:13-37
+484            <intent-filter>
+484-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:44:13-46:29
+485                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+485-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:45:17-103
+485-->[com.facebook.android:facebook-core:15.1.0] C:\Users\eslam\.gradle\caches\transforms-3\f02e1bc92c1d3846bf2645188cb00aa5\transformed\jetified-facebook-core-15.1.0\AndroidManifest.xml:45:25-100
+486            </intent-filter>
+487        </receiver>
+488
+489        <service
+489-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\4113b5e9eebac5e546a4bb4fd52b72c1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+490            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+490-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\4113b5e9eebac5e546a4bb4fd52b72c1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+491            android:exported="false" >
+491-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\4113b5e9eebac5e546a4bb4fd52b72c1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+492            <meta-data
+492-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\4113b5e9eebac5e546a4bb4fd52b72c1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+493                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+493-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\4113b5e9eebac5e546a4bb4fd52b72c1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+494                android:value="cct" />
+494-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\4113b5e9eebac5e546a4bb4fd52b72c1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+495        </service>
+496        <service
+496-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\58af152436a15bc58b58a01f37a96e35\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+497            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+497-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\58af152436a15bc58b58a01f37a96e35\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+498            android:exported="false"
+498-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\58af152436a15bc58b58a01f37a96e35\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+499            android:permission="android.permission.BIND_JOB_SERVICE" >
+499-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\58af152436a15bc58b58a01f37a96e35\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+500        </service>
+501
+502        <receiver
+502-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\58af152436a15bc58b58a01f37a96e35\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+503            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+503-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\58af152436a15bc58b58a01f37a96e35\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+504            android:exported="false" />
+504-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\eslam\.gradle\caches\transforms-3\58af152436a15bc58b58a01f37a96e35\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+505
+506        <provider
+506-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\93314fe2496d840d477012e58a06522d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+507            android:name="androidx.startup.InitializationProvider"
+507-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\93314fe2496d840d477012e58a06522d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+508            android:authorities="aliraqia.edu.iq.androidx-startup"
+508-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\93314fe2496d840d477012e58a06522d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+509            android:exported="false" >
+509-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\93314fe2496d840d477012e58a06522d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+510            <meta-data
+510-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\93314fe2496d840d477012e58a06522d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+511                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+511-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\93314fe2496d840d477012e58a06522d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+512                android:value="androidx.startup" />
+512-->[androidx.emoji2:emoji2:1.2.0] C:\Users\eslam\.gradle\caches\transforms-3\93314fe2496d840d477012e58a06522d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+513            <meta-data
+513-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+514                android:name="androidx.work.WorkManagerInitializer"
+514-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+515                android:value="androidx.startup" />
+515-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+516            <meta-data
+516-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\eslam\.gradle\caches\transforms-3\b5f2d60df8420bd798e0fb998c0d752c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+517                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+517-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\eslam\.gradle\caches\transforms-3\b5f2d60df8420bd798e0fb998c0d752c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+518                android:value="androidx.startup" />
+518-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\eslam\.gradle\caches\transforms-3\b5f2d60df8420bd798e0fb998c0d752c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+519        </provider>
+520
+521        <service
+521-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+522            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+522-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+523            android:directBootAware="false"
+523-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+524            android:enabled="@bool/enable_system_alarm_service_default"
+524-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+525            android:exported="false" />
+525-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+526        <service
+526-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+527            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+527-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+528            android:directBootAware="false"
+528-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+529            android:enabled="@bool/enable_system_job_service_default"
+529-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+530            android:exported="true"
+530-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+531            android:permission="android.permission.BIND_JOB_SERVICE" />
+531-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+532        <service
+532-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+533            android:name="androidx.work.impl.foreground.SystemForegroundService"
+533-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+534            android:directBootAware="false"
+534-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+535            android:enabled="@bool/enable_system_foreground_service_default"
+535-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+536            android:exported="false" />
+536-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+537
+538        <receiver
+538-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+539            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+539-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+540            android:directBootAware="false"
+540-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+541            android:enabled="true"
+541-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+542            android:exported="false" />
+542-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+543        <receiver
+543-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+544            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+544-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+545            android:directBootAware="false"
+545-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+546            android:enabled="false"
+546-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+547            android:exported="false" >
+547-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+548            <intent-filter>
+548-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+549                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+549-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+549-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+550                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+550-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+550-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+551            </intent-filter>
+552        </receiver>
+553        <receiver
+553-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+554            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+554-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+555            android:directBootAware="false"
+555-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+556            android:enabled="false"
+556-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+557            android:exported="false" >
+557-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+558            <intent-filter>
+558-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+559                <action android:name="android.intent.action.BATTERY_OKAY" />
+559-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+559-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+560                <action android:name="android.intent.action.BATTERY_LOW" />
+560-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+560-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+561            </intent-filter>
+562        </receiver>
+563        <receiver
+563-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+564            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+564-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+565            android:directBootAware="false"
+565-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+566            android:enabled="false"
+566-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+567            android:exported="false" >
+567-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+568            <intent-filter>
+568-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+569                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+569-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+569-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+570                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+570-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+570-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+571            </intent-filter>
+572        </receiver>
+573        <receiver
+573-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+574            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+574-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+575            android:directBootAware="false"
+575-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+576            android:enabled="false"
+576-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+577            android:exported="false" >
+577-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+578            <intent-filter>
+578-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+579                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+579-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+579-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+580            </intent-filter>
+581        </receiver>
+582        <receiver
+582-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+583            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+583-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+584            android:directBootAware="false"
+584-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+585            android:enabled="false"
+585-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+586            android:exported="false" >
+586-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+587            <intent-filter>
+587-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+588                <action android:name="android.intent.action.BOOT_COMPLETED" />
+588-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+588-->[:flutter_local_notifications] C:\Users\eslam\StudioProjects\Aliraq\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+589                <action android:name="android.intent.action.TIME_SET" />
+589-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+589-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+590                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+590-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+590-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+591            </intent-filter>
+592        </receiver>
+593        <receiver
+593-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+594            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+594-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+595            android:directBootAware="false"
+595-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+596            android:enabled="@bool/enable_system_alarm_service_default"
+596-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+597            android:exported="false" >
+597-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+598            <intent-filter>
+598-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+599                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+599-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+599-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+600            </intent-filter>
+601        </receiver>
+602        <receiver
+602-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+603            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+603-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+604            android:directBootAware="false"
+604-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+605            android:enabled="true"
+605-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+606            android:exported="true"
+606-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+607            android:permission="android.permission.DUMP" >
+607-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+608            <intent-filter>
+608-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+609                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+609-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+609-->[androidx.work:work-runtime:2.7.0] C:\Users\eslam\.gradle\caches\transforms-3\c341a084b4bcc9a2ffd2db997408ec8f\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+610            </intent-filter>
+611        </receiver>
+612
+613        <service
+613-->[androidx.room:room-runtime:2.2.5] C:\Users\eslam\.gradle\caches\transforms-3\793b2b42ca998dd3b7615218cd0d924f\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+614            android:name="androidx.room.MultiInstanceInvalidationService"
+614-->[androidx.room:room-runtime:2.2.5] C:\Users\eslam\.gradle\caches\transforms-3\793b2b42ca998dd3b7615218cd0d924f\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+615            android:directBootAware="true"
+615-->[androidx.room:room-runtime:2.2.5] C:\Users\eslam\.gradle\caches\transforms-3\793b2b42ca998dd3b7615218cd0d924f\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+616            android:exported="false" />
+616-->[androidx.room:room-runtime:2.2.5] C:\Users\eslam\.gradle\caches\transforms-3\793b2b42ca998dd3b7615218cd0d924f\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+617
+618        <activity
+618-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:14:9-18:74
+619            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+619-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:15:13-74
+620            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+620-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:16:13-170
+621            android:hardwareAccelerated="true"
+621-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:17:13-47
+622            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+622-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:18:13-71
+623        <activity
+623-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:19:9-23:86
+624            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+624-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:20:13-85
+625            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+625-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:21:13-170
+626            android:hardwareAccelerated="true"
+626-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:22:13-47
+627            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+627-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:23:13-83
+628        <activity
+628-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:24:9-28:86
+629            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+629-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:25:13-93
+630            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+630-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:26:13-170
+631            android:hardwareAccelerated="false"
+631-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:27:13-48
+632            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+632-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:28:13-83
+633        <activity
+633-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:29:9-33:74
+634            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+634-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:30:13-82
+635            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+635-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:31:13-170
+636            android:hardwareAccelerated="false"
+636-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:32:13-48
+637            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+637-->[com.unity3d.ads:unity-ads:4.4.1] C:\Users\eslam\.gradle\caches\transforms-3\0bfb3cd0bac45a48102b6afffe38537d\transformed\jetified-unity-ads-4.4.1\AndroidManifest.xml:33:13-71
+638        <activity
+638-->[com.google.android.play:core-common:2.0.2] C:\Users\eslam\.gradle\caches\transforms-3\8e8400059fef6a615ee0b4d3f95a19c9\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:14:9-18:65
+639            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+639-->[com.google.android.play:core-common:2.0.2] C:\Users\eslam\.gradle\caches\transforms-3\8e8400059fef6a615ee0b4d3f95a19c9\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:15:13-93
+640            android:exported="false"
+640-->[com.google.android.play:core-common:2.0.2] C:\Users\eslam\.gradle\caches\transforms-3\8e8400059fef6a615ee0b4d3f95a19c9\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:16:13-37
+641            android:stateNotNeeded="true"
+641-->[com.google.android.play:core-common:2.0.2] C:\Users\eslam\.gradle\caches\transforms-3\8e8400059fef6a615ee0b4d3f95a19c9\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:17:13-42
+642            android:theme="@style/Theme.PlayCore.Transparent" />
+642-->[com.google.android.play:core-common:2.0.2] C:\Users\eslam\.gradle\caches\transforms-3\8e8400059fef6a615ee0b4d3f95a19c9\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:18:13-62
+643    </application>
+644
+645</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556384781491",
+    "project_id": "appaliraqia",
+    "storage_bucket": "appaliraqia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556384781491:android:26b4609c53f8ed07329cc6",
+        "android_client_info": {
+          "package_name": "aliraqia.edu.iq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556384781491-hol6mhi7k8jfo3a481io1iupjirhdv0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtAVMEqn5XuTsXgxidjpAnd51WCeoNMsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556384781491-hol6mhi7k8jfo3a481io1iupjirhdv0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_name">Al-Iraqia University News</string>-->
+    <string name="app_name">الجامعة العراقية نيوز</string>
+<!--    <string name="app_name">الجامعة العراقية نيوز</string>-->
+    <string name="facebook_app_id">3528072204173413</string>
+    <string name="fb_login_protocol_scheme">fb3528072204173413</string>
+    <string name="facebook_client_token">62270221b43b8de4fc79aa2075dd9a79</string>
+</resources>
